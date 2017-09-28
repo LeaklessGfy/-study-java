@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.umlv.urm.program</OriginalElement>
+  <nodes>
+    <node x="351.0" y="404.0">fr.umlv.urm.program.EURMProgram</node>
+    <node x="186.5" y="146.0">fr.umlv.urm.program.ProgramAbstract</node>
+    <node x="0.0" y="404.0">fr.umlv.urm.program.URMProgram</node>
+    <node x="235.5" y="0.0">fr.umlv.urm.program.Program</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.umlv.urm.program.EURMProgram" target="fr.umlv.urm.program.ProgramAbstract">
+      <point x="0.0" y="-59.5" />
+      <point x="522.5" y="379.0" />
+      <point x="422.75" y="379.0" />
+      <point x="78.75" y="104.0" />
+    </edge>
+    <edge source="fr.umlv.urm.program.ProgramAbstract" target="fr.umlv.urm.program.Program">
+      <point x="0.0" y="-104.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="fr.umlv.urm.program.URMProgram" target="fr.umlv.urm.program.ProgramAbstract">
+      <point x="0.0" y="-59.5" />
+      <point x="165.5" y="379.0" />
+      <point x="265.25" y="379.0" />
+      <point x="-78.75" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="347.0" y="261.5" />
+  <SelectedNodes>
+    <node>fr.umlv.urm.program.Program</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

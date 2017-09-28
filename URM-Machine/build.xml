@@ -1,0 +1,26 @@
+<project default="run">
+	<target name="doc" description="generate documentation">
+		<mkdir dir="doc"/>
+		<javadoc sourcepath="src" destdir="doc"/>
+	</target>
+	<target name="clean">
+		<delete dir="doc"/>
+		<delete dir="bin"/>
+		<delete dir="jar"/>
+	</target>
+	<target name="build">
+		<mkdir dir="bin"/>
+		<javac srcdir="src" destdir="bin"/>
+	</target>
+	<target name="jar" depends="build">
+		<mkdir dir="jar"/>
+		<jar destfile="jar/URM.jar" basedir="bin">
+			<manifest>
+				<attribute name="Main-Class" value="fr.umlv.urm.test.Main"/>
+			</manifest>
+		</jar>
+	</target>
+	<target name="run" depends="jar">
+		<java jar="jar/URM.jar" fork="true"/>
+	</target>
+</project>

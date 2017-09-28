@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.umlv.urm.utilities</OriginalElement>
+  <nodes>
+    <node x="44.0" y="175.0">fr.umlv.urm.utilities.Programs</node>
+    <node x="-474.0" y="-8.0">fr.umlv.urm.utilities.Tests</node>
+    <node x="-472.0" y="175.0">fr.umlv.urm.utilities.Registers</node>
+    <node x="21.0" y="-1.0">fr.umlv.urm.utilities.Commands</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="230.0" />
+  <SelectedNodes>
+    <node>fr.umlv.urm.utilities.Programs</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

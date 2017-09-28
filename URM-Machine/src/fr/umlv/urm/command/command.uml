@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.umlv.urm.command</OriginalElement>
+  <nodes>
+    <node x="320.4558823529412" y="3.2977941176469585">fr.umlv.urm.command.CommandBuilder</node>
+    <node x="1182.5" y="215.0">fr.umlv.urm.command.Anchor</node>
+    <node x="62.5" y="226.0">fr.umlv.urm.command.urm</node>
+    <node x="185.5" y="215.0">fr.umlv.urm.command.SubstitutableCommand</node>
+    <node x="643.5" y="204.0">fr.umlv.urm.command.CompilableCommand</node>
+    <node x="988.8472222222222" y="102.0">fr.umlv.urm.command.EURMCommand</node>
+    <node x="848.5" y="328.0">fr.umlv.urm.command.eurm</node>
+    <node x="574.0347222222222" y="0.0">fr.umlv.urm.command.Command</node>
+    <node x="0.0" y="102.0">fr.umlv.urm.command.URMCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.umlv.urm.command.eurm" target="fr.umlv.urm.command.Anchor">
+      <point x="21.799999999999955" y="-15.0" />
+      <point x="924.8" y="298.0" />
+      <point x="1283.0" y="298.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.URMCommand" target="fr.umlv.urm.command.Command">
+      <point x="0.0" y="-26.0" />
+      <point x="114.0" y="77.0" />
+      <point x="629.0347222222222" y="77.0" />
+      <point x="-55.0" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.EURMCommand" target="fr.umlv.urm.command.Command">
+      <point x="0.0" y="-26.0" />
+      <point x="1091.3472222222222" y="77.0" />
+      <point x="739.0347222222222" y="77.0" />
+      <point x="55.0" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.eurm" target="fr.umlv.urm.command.SubstitutableCommand">
+      <point x="-21.799999999999955" y="-15.0" />
+      <point x="881.2" y="298.0" />
+      <point x="404.5" y="298.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.eurm" target="fr.umlv.urm.command.EURMCommand">
+      <point x="43.60000000000002" y="-15.0" />
+      <point x="946.6" y="308.0" />
+      <point x="1394.0" y="308.0" />
+      <point x="1394.0" y="174.0" />
+      <point x="1168.2222222222222" y="174.0" />
+      <point x="76.875" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.eurm" target="fr.umlv.urm.command.CompilableCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.Anchor" target="fr.umlv.urm.command.EURMCommand">
+      <point x="0.0" y="-26.0" />
+      <point x="1283.0" y="184.0" />
+      <point x="1116.9722222222222" y="184.0" />
+      <point x="25.625" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm" target="fr.umlv.urm.command.URMCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.SubstitutableCommand" target="fr.umlv.urm.command.EURMCommand">
+      <point x="0.0" y="-26.0" />
+      <point x="404.5" y="174.0" />
+      <point x="1014.4722222222222" y="174.0" />
+      <point x="-76.875" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.CompilableCommand" target="fr.umlv.urm.command.EURMCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="903.0" y="184.0" />
+      <point x="1065.7222222222222" y="184.0" />
+      <point x="-25.625" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.66113074204947" x="876.7720403022668" y="167.37457401096486" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

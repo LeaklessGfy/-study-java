@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.umlv.urm.command.urm</OriginalElement>
+  <nodes>
+    <node x="0.0" y="102.0">fr.umlv.urm.command.urm.Jump</node>
+    <node x="837.0" y="124.0">fr.umlv.urm.command.urm.Successor</node>
+    <node x="578.0" y="124.0">fr.umlv.urm.command.urm.Zero</node>
+    <node x="449.0" y="0.0">fr.umlv.urm.command.URMCommand</node>
+    <node x="227.5" y="360.0">fr.umlv.urm.command.urm.factory</node>
+    <node x="299.0" y="113.0">fr.umlv.urm.command.urm.Copy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.umlv.urm.command.urm.Jump" target="fr.umlv.urm.command.URMCommand">
+      <point x="0.0" y="-104.0" />
+      <point x="139.5" y="72.0" />
+      <point x="477.5" y="72.0" />
+      <point x="-85.5" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm.Zero" target="fr.umlv.urm.command.URMCommand">
+      <point x="0.0" y="-82.0" />
+      <point x="697.5" y="82.0" />
+      <point x="591.5" y="82.0" />
+      <point x="28.5" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm.factory" target="fr.umlv.urm.command.urm.Copy">
+      <point x="29.5" y="-15.0" />
+      <point x="316.0" y="335.0" />
+      <point x="428.5" y="335.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm.Successor" target="fr.umlv.urm.command.URMCommand">
+      <point x="0.0" y="-82.0" />
+      <point x="956.5" y="72.0" />
+      <point x="648.5" y="72.0" />
+      <point x="85.5" y="26.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm.factory" target="fr.umlv.urm.command.urm.Jump">
+      <point x="-29.5" y="-15.0" />
+      <point x="257.0" y="335.0" />
+      <point x="139.5" y="335.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="fr.umlv.urm.command.urm.Copy" target="fr.umlv.urm.command.URMCommand">
+      <point x="0.0" y="-93.0" />
+      <point x="428.5" y="82.0" />
+      <point x="534.5" y="82.0" />
+      <point x="-28.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="538.0" y="212.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
